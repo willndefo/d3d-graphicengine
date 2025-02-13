@@ -51,6 +51,11 @@ GLFWwindow* GWindow::GetWindowHandler() const
 	return Window;
 }
 
+HWND GWindow::GetWindowNativeHandler() const
+{
+	return glfwGetWin32Window(Window);
+}
+
 int GWindow::GetWidth() const
 {
 	return Width;

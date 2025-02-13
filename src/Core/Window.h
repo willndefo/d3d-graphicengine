@@ -23,6 +23,7 @@ public:
 
 	bool IsVisible() const;
 	GLFWwindow* GetWindowHandler() const;
+	HWND GetWindowNativeHandler() const;
 
 	int GetWidth() const;
 	int GetHeight() const;
