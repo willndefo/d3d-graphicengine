@@ -9,7 +9,7 @@
 class GWindow
 {
 private:
-	GLFWwindow* Window;
+	GLFWwindow* Window{};
 	int Width;
 	int Height;
 	std::string Title;
